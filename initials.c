@@ -6,14 +6,12 @@
  * will be only letters and single spaces between words. The initials will be
  * returned capitalized.
  */
-
-
 #include <cs50.h>
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
 
-int main(int argc, string argv[])
+int main(void)
 {
     // gets a name from the user
     string name = GetString();
@@ -29,6 +27,6 @@ int main(int argc, string argv[])
             printf("%c", toupper(name[i + 1]));
         }
     }
-    
+    // prints new line at end of output
     printf("\n");
 }
