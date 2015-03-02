@@ -4,6 +4,8 @@
 // Computer Science 50
 // Problem Set 3
 //
+// CS50 rendition of the class Breakout game. 
+//
 
 // standard libraries
 #define _XOPEN_SOURCE
